@@ -6,7 +6,7 @@ trigger:
 - '*'
 
 pool:
-  name: 'Azure Piplines' # Replace Default with the name of your agent pool if you used a different pool
+  name: 'Default' # Replace Default with the name of your agent pool if you used a different pool
 
 variables:
   buildConfiguration: 'Release'
